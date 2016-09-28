@@ -1,0 +1,72 @@
+# Refer to https://react-bootstrap.github.io/components.html
+
+snippet imprb Import from react-bootstrap
+	import { ${1:...} } from 'react-bootstrap';
+
+#############
+#  Buttons  #
+#############
+
+snippet ButtonToolbar <ButtonToolbar/>
+	<ButtonToolbar>
+	  ${1}
+	</ButtonToolbar>
+
+snippet ButtonGroup <ButtonGroup/>
+	<ButtonGroup bsSize="${1}"${2: vertical}>
+	  ${3}
+	</ButtonGroup>
+
+snippet Button <Button/>
+	<Button bsStyle="${1:primary}" bsSize="${2}"${3: block}>
+	  ${4}
+	</Button>
+
+snippet DropdownButton <DropdownButton/>
+	<DropdownButton title="${1:Dropdown}" id="${2:dropdown}">
+	  ${3}
+	</DropdownButton>
+
+snippet MenuItem <MenuItem/>
+	<MenuItem eventKey="${1}">
+	  ${2}
+	</MenuItem>
+
+#################
+#  Page layout  #
+#################
+
+# Grid
+
+snippet Grid <Grid/>
+	<Grid>
+	  ${1}
+	</Grid>
+
+snippet Row <Row/>
+	<Row>
+	  ${1}
+	</Row>
+
+snippet Colxs xs <Col/>
+	<Col xs={${1}}>${2}</Col>
+
+snippet Colmd md <Col/>
+	<Col md={${1}}>${2}</Col>
+
+snippet Clearfix <Clearfix/>
+	<Clearfix />
+
+# Jumbotron
+
+snippet Jumbotron <Jumbotron/>
+	<Jumbotron>
+	  ${1}
+	</Jumbotron>
+
+# Page header
+
+snippet PageHeader <PageHeader/>
+	<PageHeader>
+	  ${1}
+	</PageHeader>
