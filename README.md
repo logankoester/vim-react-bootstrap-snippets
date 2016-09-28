@@ -5,8 +5,6 @@ JSX snippets for [React-Bootstrap](https://react-bootstrap.github.io/) markup, f
 ## Dependencies
 
 - [vim-snipmate](https://github.com/garbas/vim-snipmate)
-- [tlib\_vim](https://github.com/tomtom/tlib_vim)
-- [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils)
 
 ## Installation using [Pathogen](https://github.com/tpope/vim-pathogen)
 
