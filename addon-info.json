@@ -1,0 +1,9 @@
+{
+  "name" : "react-bootstrap-snippets",
+  "author" : "Logan Koester",
+  "maintainer" : "Logan Koester",
+  "repository" : {"type": "git", "url": "git://github.com/logankoester/vim-react-bootstrap-snippets.git"},
+  "dependencies" : {
+  },
+  "description" : "JSX snippets for react-bootstrap"
+}
